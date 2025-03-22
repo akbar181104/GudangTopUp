@@ -33,10 +33,18 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
+
+      <!-- search form start -->
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Cari Game..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- search form end -->
     </nav>
 
     <!-- navbar end -->
@@ -46,9 +54,9 @@
       <main class="content">
         <h1>Gamers Sejati<br />Pasti <span>TopUp Disini</span></h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, ab.
+          Top up game favoritmu dengan cepat, mudah, dan aman hanya di GudangTopUp
         </p>
-        <a href="#" class="cta">Top Up Sekarang</a>
+        <a href="#" id="topup-sekarang">Top Up Sekarang</a>
       </main>
     </section>
     <!-- hero seection end -->
@@ -65,12 +73,16 @@
         <div class="content">
           <h3>Kenapa harus top up di Gudang TopUp ?</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
-            aspernatur eveniet numquam optio suscipit assumenda!
+            Kami menyediakan layanan top-up game yang cepat, aman, dan terpercaya dengan 
+            harga terbaik. Dengan berbagai pilihan metode pembayaran, transaksi dapat 
+            dilakukan dengan mudah tanpa perlu khawatir tentang keamanan.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ab
-            atque natus alias incidunt ut doloribus quod! Neque, maiores sed.
+            GudangTopUp hadir untuk memenuhi kebutuhan para gamer yang ingin melakukan 
+            top-up tanpa ribet. Proses transaksi instan memungkinkan Anda mendapatkan 
+            item game favorit dalam hitungan detik. Selain itu, kami selalu menawarkan 
+            promo menarik agar Anda bisa mendapatkan lebih banyak keuntungan setiap kali 
+            melakukan top-up.
           </p>
         </div>
       </div>
@@ -82,30 +94,67 @@
     <section id="menu" class="menu">
       <h2><span>Daftar </span>Game</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-        eligendi atque sed reiciendis suscipit laudantium?
+        Temukan berbagai pilihan game favorit Anda dan nikmati pengalaman top-up 
+        yang cepat, mudah, dan aman. Dapatkan item eksklusif dengan harga terbaik 
+        hanya di GudangTopUp!
       </p>
 
       <div class="row">
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="PUBG" class="menu-card-img" />
-          <h3 class="menu-card-tittle">PUBG</h3>
-          <p class="menu-card-price">IDR 150.000</p>
+          <img src="img/menu/1.jpg" alt="PUBG" class="menu-card-img1" />
+          <h3 class="menu-card-tittle">PUBG Mobile</h3>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="PUBG" class="menu-card-img" />
-          <h3 class="menu-card-tittle">PUBG</h3>
-          <p class="menu-card-price">IDR 150.000</p>
+          <img
+            src="img/menu/logo-mobile-legend.png"
+            alt="PUBG"
+            class="menu-card-img2"
+          />
+          <h3 class="menu-card-tittle">Mobile Legends</h3>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="PUBG" class="menu-card-img" />
-          <h3 class="menu-card-tittle">PUBG</h3>
-          <p class="menu-card-price">IDR 150.000</p>
+          <img
+            src="img/menu/logo-freefire.png"
+            alt="PUBG"
+            class="menu-card-img3"
+          />
+          <h3 class="menu-card-tittle">Free Fire</h3>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="PUBG" class="menu-card-img" />
-          <h3 class="menu-card-tittle">PUBG</h3>
-          <p class="menu-card-price">IDR 150.000</p>
+          <img
+            src="img/menu/logo-efootball.png"
+            alt="PUBG"
+            class="menu-card-img4"
+          />
+          <h3 class="menu-card-tittle">e-Football</h3>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/logo-genshin.png"
+            alt="PUBG"
+            class="menu-card-img5"
+          />
+          <h3 class="menu-card-tittle">Genshin Impact</h3>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/logo-valorant.png"
+            alt="PUBG"
+            class="menu-card-img6"
+          />
+          <h3 class="menu-card-tittle">Valorant</h3>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/menu/logo-roblox.png"
+            alt="PUBG"
+            class="menu-card-img7"
+          />
+          <h3 class="menu-card-tittle">Roblox</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/logo-stem.png" alt="PUBG" class="menu-card-img8" />
+          <h3 class="menu-card-tittle">Steam</h3>
         </div>
       </div>
     </section>
@@ -116,23 +165,21 @@
     <section id="contact" class="contact">
       <h2><span>Kontak </span>Kami</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-        eligendi atque sed reiciendis suscipit laudantium?
+        Kirim pesan kepada kami jika anda mengalami masalah!
       </p>
 
       <div class="row">
         <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Username" />
+            <input type="text" placeholder="Nama" id="name-input" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
             <input type="text" placeholder="Email" />
           </div>
-          <div class="input-group">
-            <i data-feather="phone"></i>
-            <input type="text" placeholder="Phone number" />
+          <div class="lapor">
+            <input type="text" placeholder="Ketik Sesuatu..."id="lapor" />
           </div>
           <button type="submit" class="btn">Kirim pesan</button>
         </form>
@@ -145,9 +192,9 @@
 
     <footer>
       <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="https://www.instagram.com/akbar.hdyt_?igsh=MTVqMnNuZG9ldmIxaA=="><i data-feather="instagram"></i></a>
+        <a href="https://wa.me/qr/MT27D6RCGE6AC1"><i data-feather="message-circle"></i></a>
+        <a href="https://www.facebook.com/share/1ELEztqx89/"><i data-feather="facebook"></i></a>
       </div>
 
       <div class="links">
@@ -157,12 +204,115 @@
         <a href="#contact">Kontak Kami</a>
       </div>
       <div class="credit">
-        <p>Created by <a href="">akbarhidayat</a>. │ &copy; 2024.</p>
+        <p>Created by <a href="">akbarhidayat</a>. │ &copy; 2025.</p>
       </div>
     </footer>
 
     <!-- footer end -->
 
+    <!-- check out start  -->
+
+    <div class="checkout" id="checkout-detail">
+      <div class="checkout-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="checkout-content">
+          <div class="head-content">
+            <img
+              src="img/checkout/pubg-head.jpg"
+              alt="PUBG"
+              class="menu-card-img"
+            />
+            <!-- <h3 class="tittle-pubg">PUBG Mobile</h3> -->
+          </div>
+          <div class="proudct-content">
+            <h3 class="input-id">Silahkan isi User ID dan Zone ID</h3>
+            <form action="">
+              <div class="form-group">
+                <div class="id-akun">
+                  <input type="text" placeholder="User ID" />
+                </div>
+                <div class="id-zona">
+                  <input type="text" placeholder="Zone ID" />
+                </div>
+              </div>
+            </form>
+            <div class="group-voucher">
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>100 + 50 UC<br /><span>Rp. 25.000</span></h3>
+              </div>
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>200 + 70 UC <br /><span>Rp. 39.000</span></h3>
+              </div>
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>400 + 99 UC <br /><span>Rp. 85.000</span></h3>
+              </div>
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>659 + 130 UC<br /><span>Rp. 123.000</span></h3>
+              </div>
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>1025 + 225 UC<br /><span>Rp. 179.000</span></h3>
+              </div>
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>1505 + 365 UC<br /><span>Rp. 229.000</span></h3>
+              </div>
+              <div class="voucher-total">
+                <img
+                  src="img/pubg-uc.png"
+                  alt="voucher"
+                  class="voucher-total-img"
+                />
+                <h3>2045 + 425 UC<br /><span>Rp. 289.000</span></h3>
+              </div>
+            </div>
+            <div class="group-checkout">
+              <button id="buy-now-btn" type="button" class="btn">Beli sekarang</button>
+              <div class="total-price">
+                <h3>Total pembelian :</h3>
+              </div>
+              <div class="buy-now">
+                <h3 id="total-amount">Rp. - <br /><span>*Termasuk PPN</span></h3>
+              </div>
+              <div id="qr-container" style="display: none; text-align: center;">
+                <h3>Scan QR untuk pembayaran</h3>
+                <img id="qr-code" src="" alt="QR Code" style="width: 200px; height: 200px;">
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- check out end -->
     <!-- feathericons -->
     <script>
       feather.replace();
